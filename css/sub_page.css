@@ -681,11 +681,21 @@ ul .swiper-txt p{
   align-items: center;
   gap: 20px;
 }
+.slide-flex-box .slde-text-img{
+
+  width: 50%;
+}
+.slide-flex-box .slde-text-img img{
+  border-radius: 10px;
+  width: 100%;
+}
 .slide-flex-box img{
   border-radius: 10px;
   width: 50%;
 }
-
+.slide-flex-box-first.wi-50{
+  width: 50%;
+}
 /* sub_33 세계는 지금 */
 .small-sub-title{
   font-size: var(--text-size-24);
@@ -1669,6 +1679,14 @@ ul .swiper-txt p{
   }
   .m-view{
     display: block;
+  }
+  .slide-flex-box .slde-text-img{
+
+    width: 100%;
+  }
+
+  .slide-flex-box-first.wi-50{
+    width: 100%;
   }
 }
 @media screen and (max-width: 250px) {
